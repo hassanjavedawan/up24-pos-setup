@@ -7,6 +7,8 @@ or monthly fee is needed to sell.
 
 The screens and the receipt can be in **English or Urdu**.
 
+**Website:** [pos.up24solutions.com](https://pos.up24solutions.com/) has the full details and features of Up24 Sale System.
+
 ## Screenshots
 
 | | |
