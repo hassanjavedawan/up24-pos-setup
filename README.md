@@ -14,7 +14,7 @@ The screens and the receipt can be in **English or Urdu**.
 | | |
 | --- | --- |
 | ![Home: today's sale, udhaar and low stock](docs/screenshots/02-home.png) | ![Billing with quick buttons and change](docs/screenshots/03-billing.png) |
-| **Home**: the day at a glance | **Billing**: scan or tap, the change is shown big |
+| **Home**: today's sale first, first steps and alerts at the side | **Billing**: scan or tap, the change is shown big |
 | ![Products with stock and prices](docs/screenshots/04-products.png) | ![Khata: a customer's udhaar and payments](docs/screenshots/05-khata.png) |
 | **Products**: stock, prices, quick buttons | **Khata**: udhaar, payments, WhatsApp reminder |
 | ![Sales of a day with the receipt](docs/screenshots/06-sales.png) | ![Reports: sales, cash and profit](docs/screenshots/07-reports.png) |
@@ -37,6 +37,8 @@ Needs Windows 10 or 11 (64-bit).
 **Selling**
 - Fast billing by barcode scanner, keyboard or quick buttons
 - Sell by quantity, by weight (up to 3 decimals) or by amount ("Rs 100 of sugar")
+- Medicines: find a medicine by its formula (salt) and see the other brands with the same one; sell by the tablet, the strip, the packet or the box, each at its own price, with one line per medicine and a unit selector (or the keys S, P, B, T); receive stock by the box; expiry dates and batches, with an expiry list on the home screen; patient, doctor and prescription number on the bill
+- Put a bill on hold (F3) and serve the next customer; held bills (F7) and the patient details (F10) are a key away; print or send a customer's khata statement (A4, PDF or WhatsApp)
 - Discount as rupees or as a percent ("10%"); the owner sets how much discount
   a cashier may give
 - Cash or digital payment (JazzCash / Easypaisa, with the shop's own QR), with
@@ -44,8 +46,8 @@ Needs Windows 10 or 11 (64-bit).
 - Wholesale: more than one rate per product, prices per carton, and a credit
   limit for each customer
 - Receipts and WhatsApp messages in English or Urdu, with the shop's logo.
-  A print window lets you choose language, copies and logo, preview, save a PDF
-  or print. Choose the printer from the list of printers Windows knows (USB
+  The print window opens after every sale (switch it off in Settings) with the receipt preview shown; choose language, copies and logo, save a PDF
+  or print. Receipt paper: 58 mm, 80 mm, A4 page or A5 page. Choose the printer from the list of printers Windows knows (USB
   and paired Bluetooth ones included), receipt printer or a normal page printer.
 - Filter the sales list by cash, digital and udhaar
 
