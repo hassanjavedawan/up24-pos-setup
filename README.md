@@ -37,7 +37,7 @@ Needs Windows 10 or 11 (64-bit).
 **Selling**
 - Fast billing by barcode scanner, keyboard or quick buttons
 - Sell by quantity, by weight (up to 3 decimals) or by amount ("Rs 100 of sugar")
-- Medicines: find a medicine by its formula (salt) and see the other brands with the same one; sell by the tablet, the strip, the packet or the box, each at its own price, with one line per medicine and a unit selector (or the keys S, P, B, T); receive stock by the box; expiry dates and batches, with an expiry list on the home screen; patient, doctor and prescription number on the bill
+- Medicines: find a medicine by its formula (salt) and see the other brands with the same one; sell by the tablet or by any unit you make (strip, packet, box, blister...), each at its own price, with one line per medicine and a unit selector (or the keys S, P, B, T); receive stock by the box; expiry dates and batches, with an expiry list on the home screen; patient, doctor and prescription number on the bill
 - Put a bill on hold (F3) and serve the next customer; held bills (F7) and the patient details (F10) are a key away; print or send a customer's khata statement (A4, PDF or WhatsApp)
 - Discount as rupees or as a percent ("10%"); the owner sets how much discount
   a cashier may give
@@ -54,15 +54,19 @@ Needs Windows 10 or 11 (64-bit).
 **Khata (udhaar)**
 - Customer accounts, payments received, full history
 - Udhaar reminders sent on WhatsApp
+- A payment cycle for each customer (7, 15, 30 or your own number of days): Home lists who is due today, with a button to send the reminder
+- A wrong payment or old register line can be corrected or cancelled by the owner (it stays in the ledger, marked cancelled); old register lines start on today and the time now
 
 **Stock**
+- A short product form: the main fields first; barcode, category, rack, expiry, variants, medicine, supplier, warranty and picture open with a switch
 - Products with barcodes, cost and sale price, low-stock warnings, optional
   pictures and a rack for each product
+- Any number of units for a product (strip, packet, box, carton...), each with its own pieces and price
+- A product can carry a warranty (printed on the receipt), a supplier, and "no discount" (a bill's discount does not come off its price)
 - Units with their full names (Kilogram, Dozen...) and your own units
 - Expiry dates and batches, for medical stores and others (first expiry sold
   first; expired stock is never sold without the owner)
-- Sizes and colors for clothes and shoes: make every size and color of one
-  article in one go, each with its own stock and barcode
+- Variants: sizes and colors for clothes and shoes, or a list of kinds of one article (flavors, brands), each with its own cost, price, stock and barcode
 - Scan goods in from suppliers; scan and count stock
 - Print barcode labels on A4 sheets for loose items
 - Import products from Excel
@@ -73,6 +77,10 @@ Needs Windows 10 or 11 (64-bit).
 - Suppliers: purchases, purchase orders (sent on WhatsApp or printed, turned
   into a purchase when the goods arrive) and what the shop owes
 - Daily, monthly and profit reports, export to Excel, daily summary on WhatsApp
+
+**Easy to start**
+- A tour of the screens for a new shop (again from Settings > About), and a "What is new" window after every update
+- Settings > Features: switch on only what your shop uses
 
 **Safe data**
 - Two kinds of users: owner and cashier. Only the owner can cancel sales,
@@ -99,7 +107,7 @@ publisher.
 
 ## License
 
-The app runs free for 30 days. After that it needs a license key, entered in
+The app runs free for 10 days (15 for shops that were already using it before the change). After that it needs a license key, entered in
 **Settings > License**. Contact the developer for a key.
 
 When a license ends, selling stops but the shop's data stays fully readable,
