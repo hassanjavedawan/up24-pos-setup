@@ -112,9 +112,30 @@ can be switched off in **Settings > Features**.
 
 The offline app above is the whole product. A shop can add the **Cloud** from **Settings > Cloud**: the shop's PC then sends its
 sales, stock and khata to the shop's own space on the Up24 server, and keeps selling if the internet goes away.
-It is the same installer and the same version, switched on or off by the shop.
+It is the same installer and the same version, switched on or off by the shop. Ask the developer to open a shop space for you.
 
-With the Cloud on, the owner can use the **owner phone app** (Android, an APK that the developer hands out; there is no store). It reads the shop, it does not sell:
+### Why switch it on
+
+- **See the shop when you are not in it.** The day's sale, how it was paid and the profit are on your phone, so you do not have to phone the cashier at closing time.
+- **Know who owes you, and for how long.** Udhaar by age (up to 30 days, 31 to 60, 61 to 90, over 90), customer by customer, and what the shop owes its suppliers.
+- **Order before you run out.** What is low, how many days each item will last, how many to order, sent as a list on WhatsApp to your supplier. And what has stopped selling, and what is about to expire.
+- **Look at any bill.** Every item, the money, what was returned, and the profit on it.
+- **A second copy of your data, away from the shop.** The shop's data is also kept on the server, which copies it every night. The PC's own daily backup stays as it is.
+- **More than one shop on one phone**, and the last thing read is kept on the phone, so it still opens with no signal.
+- **Private.** The phone asks for a PIN each time it opens (and after a minute away), cannot change a price, and the PDF report never shows the profit.
+
+Selling still happens on the shop's PC, and the PC never needs the internet to sell.
+
+| | | |
+| --- | --- | --- |
+| ![Today on the phone: the day's sale and how it was paid](docs/screenshots/phone-1-today.png) | ![Udhaar by age on the phone](docs/screenshots/phone-2-udhaar.png) | ![What to order on the phone](docs/screenshots/phone-3-order.png) |
+| **Today**: sale, how it was paid, expenses, WhatsApp or PDF | **Udhaar**: who owes, for how many days | **Order**: how long it lasts, how many to order |
+| ![One bill in full](docs/screenshots/phone-4-bill.png) | ![The month: profit after expenses](docs/screenshots/phone-5-month.png) | ![Today in the dark look](docs/screenshots/phone-6-dark.png) |
+| **Bill**: every item, the money, the profit | **Month**: profit after expenses | **Dark look**, and Urdu with right-to-left screens |
+
+### What the owner phone app does
+
+The app is for Android (an APK that the developer hands out; there is no store). It reads the shop, it does not sell:
 - Today: the day's sale, how it compares, a month view with the profit after expenses, the day's report on WhatsApp or as a PDF (English or Urdu, never with the profit)
 - Bills in full, udhaar with how old each is, suppliers and what the shop owes them
 - Stock: what is low, what to order, what has stopped selling, what is about to expire; a product's prices and how it sold
