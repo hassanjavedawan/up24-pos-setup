@@ -5,7 +5,10 @@ stores, medical stores and the like. It runs on a Windows PC, works fully
 **offline**, and keeps all of the shop's data on that PC. No internet, server
 or monthly fee is needed to sell.
 
-The screens and the receipt can be in **English or Urdu**.
+The screens and the receipt can be in **English or Urdu**, in a light or a **dark** look.
+
+Selling never needs the internet. A shop that wants it can also switch on the optional **Cloud** (Settings > Cloud),
+so that the owner can read the shop's sales, udhaar and stock on an **Android phone**. See "Cloud and the owner's phone" below.
 
 **Website:** [pos.up24solutions.com](https://pos.up24solutions.com/) has the full details and features of Up24 Sale System.
 
@@ -13,12 +16,16 @@ The screens and the receipt can be in **English or Urdu**.
 
 | | |
 | --- | --- |
-| ![Home: today's sale, udhaar and low stock](docs/screenshots/02-home.png) | ![Billing with quick buttons and change](docs/screenshots/03-billing.png) |
-| **Home**: today's sale first, first steps and alerts at the side | **Billing**: scan or tap, the change is shown big |
-| ![Products with stock and prices](docs/screenshots/04-products.png) | ![Khata: a customer's udhaar and payments](docs/screenshots/05-khata.png) |
-| **Products**: stock, prices, quick buttons | **Khata**: udhaar, payments, WhatsApp reminder |
-| ![Sales of a day with the receipt](docs/screenshots/06-sales.png) | ![Reports: sales, cash and profit](docs/screenshots/07-reports.png) |
-| **Sales**: every bill, reprint, cancel | **Reports**: sales, cash, udhaar and profit |
+| ![Home: today's sale on a till roll, the week, udhaar and low stock](docs/screenshots/02-home.png) | ![Billing: items, the total and the change](docs/screenshots/03-billing.png) |
+| **Home**: today's sale first, compared with yesterday, the last 7 days, low stock | **Billing**: scan or type, the change is shown big |
+| ![Products with stock and prices](docs/screenshots/04-products.png) | ![Khata: how old the udhaar is, a customer's payments](docs/screenshots/05-khata.png) |
+| **Products**: stock, prices, low-stock warnings | **Khata**: udhaar by age, payments, WhatsApp reminder |
+| ![Sales of a day with the receipt](docs/screenshots/06-sales.png) | ![Reports: sales, how it was paid, profit](docs/screenshots/07-reports.png) |
+| **Sales**: every bill, reprint, cancel | **Reports**: sales, how it was paid, profit, charts |
+| ![Home in the dark look](docs/screenshots/08-home-dark.png) | ![Reports in the dark look](docs/screenshots/09-reports-dark.png) |
+| **Dark look**: Settings > Look, "Like Windows", "Light" or "Dark" | The same charts in the dark |
+
+The pictures show a made-up shop (Al-Madina General Store) with made-up sales.
 
 ## Download
 
@@ -77,10 +84,16 @@ Needs Windows 10 or 11 (64-bit).
 - Suppliers: purchases, purchase orders (sent on WhatsApp or printed, turned
   into a purchase when the goods arrive) and what the shop owes
 - Daily, monthly and profit reports, export to Excel, daily summary on WhatsApp
+- Charts without extra software: today's sale against yesterday and the last 7 days, how it was paid (cash, digital, udhaar), the busy hours of the day, profit for each day, what to order again (how many days it will last), and what has stopped selling and the money tied up in it
+- Khata shows how old each udhaar is (up to 30 days, 31 to 60, 61 to 90, over 90)
 
 **Easy to start**
 - A tour of the screens for a new shop (again from Settings > About), and a "What is new" window after every update
 - Settings > Features: switch on only what your shop uses
+- Settings > Look: a colour, the shop's logo, larger text, and a light or dark look ("Like Windows" by default; the choice is for each computer)
+
+**More than one computer**
+- Counters: other PCs of the shop can sell through the main PC over the shop's own network (Settings > Counters), each with its own login. The main PC keeps the data.
 
 **Safe data**
 - Two kinds of users: owner and cashier. Only the owner can cancel sales,
@@ -94,6 +107,20 @@ Needs Windows 10 or 11 (64-bit).
 
 Features a shop does not need (wholesale, tax, sizes and colors, suppliers...)
 can be switched off in **Settings > Features**.
+
+## Cloud and the owner's phone (optional)
+
+The offline app above is the whole product. A shop can add the **Cloud** from **Settings > Cloud**: the shop's PC then sends its
+sales, stock and khata to the shop's own space on the Up24 server, and keeps selling if the internet goes away.
+It is the same installer and the same version, switched on or off by the shop.
+
+With the Cloud on, the owner can use the **owner phone app** (Android, an APK that the developer hands out; there is no store). It reads the shop, it does not sell:
+- Today: the day's sale, how it compares, a month view with the profit after expenses, the day's report on WhatsApp or as a PDF (English or Urdu, never with the profit)
+- Bills in full, udhaar with how old each is, suppliers and what the shop owes them
+- Stock: what is low, what to order, what has stopped selling, what is about to expire; a product's prices and how it sold
+- Scan a barcode with the camera, and count the stock of a product (asks for the PIN again; the main PC gets the count like any other)
+- More than one shop on one phone, a copy of what was last read (so it opens with no signal), an evening notice with the day's sales, a PIN lock, light or dark, English or Urdu
+- The phone is told of a new version by the server and installs it over the old one
 
 ## Updates
 
@@ -109,6 +136,8 @@ publisher.
 
 The app runs free for 10 days (15 for shops that were already using it before the change). After that it needs a license key, entered in
 **Settings > License**. Contact the developer for a key.
+
+A key can also carry a last day for updates; releases made after it are not installed (the app keeps working).
 
 When a license ends, selling stops but the shop's data stays fully readable,
 and backups keep working.
