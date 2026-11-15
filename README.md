@@ -27,6 +27,19 @@ so that the owner can read the shop's sales, udhaar and stock on an **Android ph
 
 The pictures show a made-up shop (Al-Madina General Store) with made-up sales.
 
+### The bill
+
+A 58 mm or 80 mm thermal bill can be laid out in different ways (Settings > Receipt printer > Bill layout, with a preview).
+The bill printed right after a sale also shows what the customer handed over and the change, and a small
+"Powered by Up24 Sale System" line at the bottom (it can be switched off).
+
+| | |
+| --- | --- |
+| ![Standard bill, with what was received and the change](docs/screenshots/receipt-1-standard.png) | ![Compact bill: one line for an item](docs/screenshots/receipt-2-compact.png) |
+| **Standard**: an item on two lines; Received and Change under Paid | **Compact**: an item on one line, less paper |
+| ![Table bill with real lines and a bigger total](docs/screenshots/receipt-3-table.png) | ![Urdu bill, drawn as a picture](docs/screenshots/receipt-4-urdu.png) |
+| **Table**: real lines (printed as a picture), a bigger total if you want | **Urdu**: the bill in Urdu, printed as a picture |
+
 ## Download
 
 Get the latest installer (`Up24-Sale-System-Setup-<version>.exe`) from
@@ -52,7 +65,10 @@ Needs Windows 10 or 11 (64-bit).
   an optional fixed tax added to bills paid digitally
 - Wholesale: more than one rate per product, prices per carton, and a credit
   limit for each customer
-- Receipts and WhatsApp messages in English or Urdu, with the shop's logo.
+- Receipts and WhatsApp messages in English or Urdu, with the shop's logo. A 58 mm or 80 mm bill can be standard, compact
+  (one line for an item) or a table with real lines and columns (printed as a picture), with the total twice as big, and the cashier, the number of items and the
+  customer's phone on or off (Settings > Receipt printer, with a preview). The bill printed after a sale also shows what the customer
+  handed over and the change.
   The print window opens after every sale (switch it off in Settings) with the receipt preview shown; choose language, copies and logo, save a PDF
   or print. Receipt paper: 58 mm, 80 mm, A4 page or A5 page. Choose the printer from the list of printers Windows knows (USB
   and paired Bluetooth ones included), receipt printer or a normal page printer.
